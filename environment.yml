@@ -1,0 +1,22 @@
+
+name: aniger-omics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - biopython
+  - networkx
+  - gprofiler-official
+  - r-base
+  - r-deseq2
+  - fastqc
+  - trimmomatic
+  - hisat2
+  - bowtie2
+  - samtools

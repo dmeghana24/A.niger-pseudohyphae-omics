@@ -1,0 +1,15 @@
+
+# Ignore raw/large data files
+data/raw/
+data/processed/
+results/
+*.bam
+*.fastq
+*.sam
+*.ms
+*.zip
+*.gz
+*.h5
+__pycache__/
+.ipynb_checkpoints/
+.env

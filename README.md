@@ -1,2 +1,4 @@
-# A.nidulans-pseudohyphae-omics
-To map genes and their encoded proteins associated with pseudohyphal (filamentous) growth in Aspergillus niger, using genomics, transcriptomics, proteomics, and bioinformatics to identify candidate regulators and functional mechanisms.
+
+# Aspergillus niger Pseudohyphal Growth Omics Pipeline
+
+A modular, reproducible pipeline for mapping genes and proteins involved in pseudohyphal growth in *Aspergillus niger*, integrating RNA-seq, proteomics, and functional annotation.
