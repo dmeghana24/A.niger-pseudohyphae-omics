@@ -1,0 +1,7 @@
+library(DESeq2)
+counts <- read.csv("../data/processed/counts_matrix.csv", row.names=1)
+colData <- read.csv("../data/processed/coldata.csv", row.names=1)
+dds <- DESeqDataSetFromMatrix(counts, colData, ~ condition)
+dds <- DESeq(dds)
+res <- results(dds)
+write.csv(as.data.frame(res), "../results/DEGs.csv")
