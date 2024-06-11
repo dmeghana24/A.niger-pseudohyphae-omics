@@ -1,0 +1,11 @@
+
+gene_id,protein_id,gene_name,function
+rasA,AN1244,RasA,GTPase signaling
+pkaA,AN1027,PkaA,Protein kinase A
+mpkA,AN3252,MpkA,MAP kinase
+cdc42,AN6923,Cdc42,Cell polarity
+gelA,AN1837,GelA,Cell wall biosynthesis
+stuA,AN10792,StuA,Transcription factor
+areA,AN8226,AreA,Nitrogen regulation
+sepA,AN6798,SepA,Septin
+chsA,AN5463,ChsA,Chitin synthase
