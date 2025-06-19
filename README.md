@@ -34,28 +34,25 @@ This repository now contains documented quality control, example pipeline runs, 
 2024-06-22: Updated this README with current documentation and workflow summary.
 
 What’s Included
-/test_data/: Minimal test data to demonstrate workflow integrity.
+`/test_data/`: Minimal test data to demonstrate workflow integrity.
 
-/notebooks/qc_rnaseq_demo.ipynb: Quality control, library size checks, PCA, and batch effect visualization.
+`/notebooks/qc_rnaseq_demo.ipynb`: Quality control, library size checks, PCA, and batch effect visualization.
 
-/notebooks/example_pipeline_run.ipynb: End-to-end mock pipeline from raw counts to candidate gene discovery and differential analysis.
+`/notebooks/example_pipeline_run.ipynb`: End-to-end mock pipeline from raw counts to candidate gene discovery and differential analysis.
 
-/figures/: All output plots (library QC, PCA, batch, volcano).
+`/figures/`: All output plots (library QC, PCA, batch, volcano).
 
-/results/: Example output tables for downstream interpretation.
+`/results/`: Example output tables for downstream interpretation.
 
 How to run:
-
+```bash
 Install dependencies:
 
-bash
-Copy
-Edit
 conda env create -f environment.yml
 conda activate a_niger_env
 jupyter notebook
-Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
-
+#Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
+```
 Questions or suggestions? Let me know:
 dmeghana@umich.edu
 
