@@ -16,7 +16,7 @@ A modular, reproducible pipeline for mapping genes and proteins involved in pseu
 conda env create -f environment.yml
 jupyter notebook
 # open and run the notebooks in /notebooks/
-
+```
 
 Testing, QC & Example Results
 This repository now contains documented quality control, example pipeline runs, and outputs with clear provenance—see commit history for exact timestamps.
