@@ -53,6 +53,5 @@ conda activate a_niger_env
 jupyter notebook
 #Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
 ```
-Questions or suggestions? Let me know:
-dmeghana@umich.edu
+
 
