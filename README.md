@@ -120,6 +120,24 @@ conda activate a_niger_env
 jupyter notebook
 #Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
 ```
+---
+
+---
+
+## 🔁 Reproducibility
+
+This repository is designed for full reproducibility and transparency:
+
+- **Test Data Provided:** All pipelines and notebooks can be run end-to-end using the mock data in `/test_data/`.
+- **Step-by-Step Notebooks:** Detailed Jupyter notebooks (`/notebooks/`) walk through each stage of the analysis, with explanations in Markdown cells for clarity.
+- **Environment Management:** All required packages and versions are listed in `environment.yml` (`conda`) for seamless setup. Just run:
+
+  ```
+  conda env create -f environment.yml
+  conda activate a_niger_env
+  ```
+
+
 
 ---
 
