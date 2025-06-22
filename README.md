@@ -1,6 +1,7 @@
 # 🦠 A.niger-pseudohyphae-omics
 
-**A reproducible multi-omics pipeline for dissecting pseudohyphal growth in *Aspergillus niger***
+**A modular, reproducible pipeline for mapping genes and proteins involved in pseudohyphal growth in *Aspergillus niger*, integrating RNA-seq, proteomics, and functional annotation.**
+
 
 ---
 
@@ -50,11 +51,23 @@ Diagram originally published for S. cerevisiae; pathway structure is conserved i
 See results/ and figures/ for tables and plots.
 
 ---
-# Aspergillus niger Pseudohyphal Growth Omics Pipeline
 
-A modular, reproducible pipeline for mapping genes and proteins involved in pseudohyphal growth in *Aspergillus niger*, integrating RNA-seq, proteomics, and functional annotation.
+## 🚀 Getting Started
 
+How to run:
+# Clone this repo
+git clone https://github.com/dmeghana24/A.niger-pseudohyphae-omics.git
+cd A.niger-pseudohyphae-omics
 
+# Install dependencies
+conda env create -f environment.yml
+conda activate a_niger_env
+
+# Launch notebooks for testing and analysis
+jupyter notebook
+# Open any notebook in /notebooks/ and follow the cells for reproducible analysis using provided mock data
+
+---
 ## Testing, QC & Example Results
 
 - See `/notebooks/qc_rnaseq_demo.ipynb` for RNA-seq QC (library size, PCA, batch).
