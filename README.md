@@ -1,3 +1,36 @@
+# 🦠 A.niger-pseudohyphae-omics
+
+**A reproducible multi-omics pipeline for dissecting pseudohyphal growth in *Aspergillus niger***
+
+---
+
+## 🌟 Overview
+
+This repository provides an end-to-end workflow for integrating transcriptomic and proteomic data to investigate the genetic and molecular mechanisms underlying pseudohyphal growth in *Aspergillus niger*. The pipeline includes data preprocessing, differential analysis, pathway/network integration, and results visualization.
+
+---
+
+## 🧬 Motivation
+
+Pseudohyphal growth in *A. niger* is a critical adaptive response relevant to fungal biology and biotechnology. By integrating RNA-seq and proteomics data, we can uncover regulatory pathways and key drivers of filamentous development.
+
+---
+
+## 🛠️ Pipeline Workflow
+
+<!--
+
+```mermaid
+graph TD
+    A[Raw RNA-seq Data] --> B[QC & Alignment]
+    B --> C[Differential Expression (DESeq2)]
+    C --> D1[Functional Enrichment]
+    A2[Raw Proteomics Data] --> B2[Quantification & QC]
+    B2 --> C2[Differential Abundance]
+    C2 --> D2[Protein Network Analysis]
+    C --> E[Integration with Proteomics]
+    C2 --> E
+    E --> F[Pathway & Network Visualization]
 
 # Aspergillus niger Pseudohyphal Growth Omics Pipeline
 
