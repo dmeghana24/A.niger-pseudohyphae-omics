@@ -31,7 +31,21 @@ graph TD
     C --> E[Integration with Proteomics]
     C2 --> E
     E --> F[Pathway & Network Visualization]
+```
+---
 
+##  Results
+Key Differentially Expressed Genes: Transcription factors and signaling proteins upregulated during pseudohyphal growth
+
+Proteomics Findings: Increased abundance of cell wall enzymes and cytoskeletal proteins
+
+Pathway Analysis: Cross-talk identified between MAPK and cAMP/PKA signaling pathways
+
+<div align="center"> <img src="figures/pathway_summary.png" alt="Pathway Analysis Summary" width="500"/> </div>
+
+See results/ and figures/ for tables and plots.
+
+---
 # Aspergillus niger Pseudohyphal Growth Omics Pipeline
 
 A modular, reproducible pipeline for mapping genes and proteins involved in pseudohyphal growth in *Aspergillus niger*, integrating RNA-seq, proteomics, and functional annotation.
