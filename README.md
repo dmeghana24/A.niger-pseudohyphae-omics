@@ -101,4 +101,15 @@ jupyter notebook
 #Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
 ```
 
+---
+
+## 📚 Documentation
+Full methods and protocols: docs/methods.md
+
+Candidate genes & pathways: references/candidate_genes.txt
+---
+## 📢 Notes
+Some code and data are abridged due to institutional and publisher restrictions.
+For complete code, data, or collaboration inquiries, please contact:
+📧 dmeghana@umich.edu
 
