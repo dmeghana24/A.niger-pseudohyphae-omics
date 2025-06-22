@@ -41,7 +41,11 @@ Proteomics Findings: Increased abundance of cell wall enzymes and cytoskeletal p
 
 Pathway Analysis: Cross-talk identified between MAPK and cAMP/PKA signaling pathways
 
-<div align="center"> <img src="figures/pathway_summary.png" alt="Pathway Analysis Summary" width="500"/> </div>
+![image](https://github.com/user-attachments/assets/ec341c04-d42c-4b98-8214-431d2d36c881)
+
+*Pathway diagram adapted from:  
+Gancedo, J. M. (2001). Control of pseudohyphae formation in Saccharomyces cerevisiae. FEMS Microbiology Reviews, 25(1), 107–123. https://doi.org/10.1111/j.1574-6976.2001.tb00574.x*
+Diagram originally published for S. cerevisiae; pathway structure is conserved in filamentous fungi including A. niger.
 
 See results/ and figures/ for tables and plots.
 
@@ -107,6 +111,7 @@ jupyter notebook
 Full methods and protocols: docs/methods.md
 
 Candidate genes & pathways: references/candidate_genes.txt
+
 ---
 ## 📢 Notes
 Some code and data are abridged due to institutional and publisher restrictions.
