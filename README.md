@@ -1,4 +1,4 @@
-# 🦠 A.niger-pseudohyphae-omics
+# A.niger-pseudohyphae-omics
 
 **A modular, reproducible pipeline for mapping genes and proteins involved in pseudohyphal growth in *Aspergillus niger*, integrating RNA-seq, proteomics, and functional annotation.**
 
