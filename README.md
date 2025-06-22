@@ -18,9 +18,8 @@ Pseudohyphal growth in *A. niger* is a critical adaptive response relevant to fu
 
 ## 🛠️ Pipeline Workflow
 
-<!--
 
-```mermaid
+```
 graph TD
     A[Raw RNA-seq Data] --> B[QC & Alignment]
     B --> C[Differential Expression (DESeq2)]
@@ -32,6 +31,7 @@ graph TD
     C2 --> E
     E --> F[Pathway & Network Visualization]
 ```
+
 ---
 
 ##  Results
