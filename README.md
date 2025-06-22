@@ -120,7 +120,6 @@ conda activate a_niger_env
 jupyter notebook
 #Open any notebook in /notebooks/ and follow the cells for fully reproducible testing and analysis using provided mock data.
 ```
----
 
 ---
 
@@ -136,7 +135,6 @@ This repository is designed for full reproducibility and transparency:
   conda env create -f environment.yml
   conda activate a_niger_env
   ```
-
 
 
 ---
