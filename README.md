@@ -55,6 +55,8 @@ See results/ and figures/ for tables and plots.
 ## 🚀 Getting Started
 
 How to run:
+
+```
 # Clone this repo
 git clone https://github.com/dmeghana24/A.niger-pseudohyphae-omics.git
 cd A.niger-pseudohyphae-omics
@@ -66,6 +68,7 @@ conda activate a_niger_env
 # Launch notebooks for testing and analysis
 jupyter notebook
 # Open any notebook in /notebooks/ and follow the cells for reproducible analysis using provided mock data
+```
 
 ---
 ## Testing, QC & Example Results
