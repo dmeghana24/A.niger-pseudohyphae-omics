@@ -20,17 +20,17 @@ Pseudohyphal growth in *A. niger* is a critical adaptive response relevant to fu
 ## 🛠️ Pipeline Workflow
 
 
-```
+```mermaid
 graph TD
-    A[Raw RNA-seq Data] --> B[QC & Alignment]
-    B --> C[Differential Expression (DESeq2)]
-    C --> D1[Functional Enrichment]
-    A2[Raw Proteomics Data] --> B2[Quantification & QC]
-    B2 --> C2[Differential Abundance]
-    C2 --> D2[Protein Network Analysis]
-    C --> E[Integration with Proteomics]
+    A["Raw RNA-seq Data"] --> B["QC & Alignment"]
+    B --> C["Differential Expression (DESeq2)"]
+    C --> D1["Functional Enrichment"]
+    A2["Raw Proteomics Data"] --> B2["Quantification & QC"]
+    B2 --> C2["Differential Abundance"]
+    C2 --> D2["Protein Network Analysis"]
+    C --> E["Integration with Proteomics"]
     C2 --> E
-    E --> F[Pathway & Network Visualization]
+    E --> F["Pathway & Network Visualization"]
 ```
 
 ---
